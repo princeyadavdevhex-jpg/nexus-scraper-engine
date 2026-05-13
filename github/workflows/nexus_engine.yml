@@ -1,0 +1,45 @@
+name: Nexus Supreme Intel Engine
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # Roz subah 4 baje chalega (UTC)
+  workflow_dispatch: # Button dabakar manual run karne ke liye
+
+permissions:
+  contents: write
+
+jobs:
+  run-nexus-engine:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        playwright install chromium
+        playwright install-deps
+
+    - name: Run Master Script
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        GROQ_KEY_1: ${{ secrets.GROQ_KEY_1 }}
+        GROQ_KEY_2: ${{ secrets.GROQ_KEY_2 }}
+      run: python main.py
+
+    - name: Commit Local Metadata to GitHub
+      run: |
+        git config --global user.name "Nexus-Bot"
+        git config --global user.email "bot@nexus.ai"
+        git add src/vault/ master_cve_index.json
+        git commit -m "⚡ Nexus Vault Updated: Daily Intel Log" || echo "No changes to commit"
+        git push
+        
