@@ -2,8 +2,8 @@ name: Nexus Supreme Intel Engine
 
 on:
   schedule:
-    - cron: '0 4 * * *' # Roz subah 4 baje chalega (UTC)
-  workflow_dispatch: # Button dabakar manual run karne ke liye
+    - cron: '0 4 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -31,15 +31,16 @@ jobs:
     - name: Run Master Script
       env:
         HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        GH_PAT: ${{ secrets.GH_PAT }} 
         GROQ_KEY_1: ${{ secrets.GROQ_KEY_1 }}
         GROQ_KEY_2: ${{ secrets.GROQ_KEY_2 }}
       run: python main.py
 
-    - name: Commit Local Metadata to GitHub
+    - name: Commit Engine Cache
       run: |
         git config --global user.name "Nexus-Bot"
         git config --global user.email "bot@nexus.ai"
-        git add src/vault/ master_cve_index.json
-        git commit -m "⚡ Nexus Vault Updated: Daily Intel Log" || echo "No changes to commit"
+        git add src/master_cve_index.json src/red_database_rules.json
+        git commit -m "⚙️ Nexus Engine: Updated Red Database Cache" || echo "No changes to commit"
         git push
         
