@@ -1,0 +1,8 @@
+playwright
+playwright-stealth
+beautifulsoup4
+lxml
+scrapegraphai
+huggingface_hub
+langchain-groq
+nest-asyncio
