@@ -6,3 +6,5 @@ scrapegraphai
 huggingface_hub
 langchain-groq
 nest-asyncio
+PyGithub
+
