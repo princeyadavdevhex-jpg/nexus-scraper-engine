@@ -26,5 +26,25 @@
     "Snyk_DB": {
         "status": "AI_Processed",
         "last_update": "2026-05-13T11:42:31.174132"
+    },
+    "HackerOne_Hacktivity": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-14T06:49:46.249876"
+    },
+    "Bugcrowd_Crowdstream": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-14T06:49:52.842658"
+    },
+    "Intigriti_News": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-14T06:49:57.745552"
+    },
+    "Synack_Red_Team": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-14T06:50:37.019639"
+    },
+    "OpenBugBounty": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-14T06:50:45.998300"
     }
 }
