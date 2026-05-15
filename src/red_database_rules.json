@@ -46,5 +46,25 @@
     "OpenBugBounty": {
         "status": "AI_Processed",
         "last_update": "2026-05-14T06:50:45.998300"
+    },
+    "TheHackerNews": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-15T06:59:13.606351"
+    },
+    "BleepingComputer": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-15T06:59:27.689561"
+    },
+    "DarkReading": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-15T06:59:33.782482"
+    },
+    "ThreatPost": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-15T07:00:06.604813"
+    },
+    "SecurityWeek": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-15T07:00:14.535834"
     }
 }
