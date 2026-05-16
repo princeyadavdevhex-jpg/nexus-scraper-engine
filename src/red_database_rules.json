@@ -66,5 +66,21 @@
     "SecurityWeek": {
         "status": "AI_Processed",
         "last_update": "2026-05-15T07:00:14.535834"
+    },
+    "Wikipedia_Malware": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-16T06:25:42.233333"
+    },
+    "Talos_Intelligence": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-16T06:25:50.532356"
+    },
+    "Mandiant_Threat": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-16T06:25:54.741277"
+    },
+    "Fortinet_FortiGuard": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-16T06:26:25.873545"
     }
 }
