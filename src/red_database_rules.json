@@ -82,5 +82,13 @@
     "Fortinet_FortiGuard": {
         "status": "AI_Processed",
         "last_update": "2026-05-16T06:26:25.873545"
+    },
+    "Ubuntu_Security": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-17T06:48:44.992989"
+    },
+    "Android_Security": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-17T06:48:55.623528"
     }
 }
