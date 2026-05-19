@@ -114,5 +114,17 @@
     "IBM_XForce": {
         "status": "AI_Processed",
         "last_update": "2026-05-18T08:11:28.466425"
+    },
+    "PacketStorm": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-19T07:52:30.814054"
+    },
+    "0day_Today": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-19T07:52:39.844037"
+    },
+    "Exploit_Alert": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-19T07:52:59.224663"
     }
 }
