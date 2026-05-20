@@ -1,11 +1,11 @@
 {
     "GitHub_Advisories": {
         "status": "AI_Processed",
-        "last_update": "2026-05-13T11:41:59.832704"
+        "last_update": "2026-05-20T07:58:13.110700"
     },
     "StackOverflow_Sec": {
         "status": "AI_Processed",
-        "last_update": "2026-05-13T11:42:04.052577"
+        "last_update": "2026-05-20T07:58:16.956000"
     },
     "WP_Scan": {
         "status": "AI_Processed",
@@ -13,19 +13,19 @@
     },
     "Mend_Vulnerability": {
         "status": "AI_Processed",
-        "last_update": "2026-05-13T11:43:07.425022"
+        "last_update": "2026-05-20T07:59:27.226499"
     },
     "GitLab_Advisories": {
         "status": "AI_Processed",
-        "last_update": "2026-05-13T11:43:40.880526"
+        "last_update": "2026-05-20T08:00:01.812165"
     },
     "NPM_Advisories": {
         "status": "AI_Processed",
-        "last_update": "2026-05-13T11:43:44.997941"
+        "last_update": "2026-05-20T08:00:05.687789"
     },
     "Snyk_DB": {
         "status": "AI_Processed",
-        "last_update": "2026-05-13T11:42:31.174132"
+        "last_update": "2026-05-20T07:58:55.212811"
     },
     "HackerOne_Hacktivity": {
         "status": "AI_Processed",
