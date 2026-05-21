@@ -29,7 +29,7 @@
     },
     "HackerOne_Hacktivity": {
         "status": "AI_Processed",
-        "last_update": "2026-05-14T06:49:46.249876"
+        "last_update": "2026-05-21T07:58:55.371059"
     },
     "Bugcrowd_Crowdstream": {
         "status": "AI_Processed",
@@ -41,11 +41,11 @@
     },
     "Synack_Red_Team": {
         "status": "AI_Processed",
-        "last_update": "2026-05-14T06:50:37.019639"
+        "last_update": "2026-05-21T08:00:49.196282"
     },
     "OpenBugBounty": {
         "status": "AI_Processed",
-        "last_update": "2026-05-14T06:50:45.998300"
+        "last_update": "2026-05-21T08:00:53.338502"
     },
     "TheHackerNews": {
         "status": "AI_Processed",
@@ -126,5 +126,9 @@
     "Exploit_Alert": {
         "status": "AI_Processed",
         "last_update": "2026-05-19T07:52:59.224663"
+    },
+    "YesWeHack": {
+        "status": "AI_Processed",
+        "last_update": "2026-05-21T07:59:54.956496"
     }
 }
